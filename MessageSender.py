@@ -6,7 +6,7 @@ from tkinter import messagebox
 #Using the Webistie's API and
 def send_message(number,mes):
     url1="https://www.fast2sms.com/dev/bulk"
-    diction={"authorization":"PsDLESZgnBuHzoiyvhGf27CU0FkwW5Kbr6QcTRJ4Neq89AMYm3b4YyK8ilxzuhTQV50S6jIev9mtXAp7",
+    diction={"authorization":"ENTER YOUR AUTHORIZATION KEY",
              "sender_id" : "FSTSMS",
              "message":mes,
              "language":"english",
